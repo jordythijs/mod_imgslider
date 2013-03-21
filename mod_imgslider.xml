@@ -12,10 +12,12 @@
   
   <files>
     <folder>assets</folder>
+    <folder>tmpl</folder>
     <filename module="mod_imgslider">mod_imgslider.php</filename>
     <filename module="mod_imgslider">assets/fullcolor.jpg</filename>
     <filename module="mod_imgslider">assets/greyscale.jpg</filename>
     <filename module="mod_imgslider">assets/jquery.slideImage.js</filename>
+    <filename module="mod_imgslider">tmpl/default.php</filename>
   </files>
   
   <languages>
