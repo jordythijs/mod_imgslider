@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<extension type="module" version="3.0" method="upgrade">
+  <name>ImageSlider</name>
+  <author>Jordy Thijs</author>
+  <creationDate>March 2013</creationDate>
+  <copyright>(C) 2013 Jordy Thijs</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <authorEmail>info@insyht.nl</authorEmail>
+  <authorUrl>www.insyht.nl</authorUrl>  
+  <version>1.0</version>
+  <description>Cut an image up in rows and let those imagerows slide to the center</description>
+  
+  <files>
+    <folder>assets</folder>
+    <filename module="mod_imgslider">mod_imgslider.php</filename>
+    <filename module="mod_imgslider">assets/fullcolor.jpg</filename>
+    <filename module="mod_imgslider">assets/greyscale.jpg</filename>
+    <filename module="mod_imgslider">assets/jquery.slideImage.js</filename>
+  </files>
+  
+  <languages>
+  </languages>
+
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="firstimage" type="media" label="Starting image:" description="Choose the starting image" />
+         <field name="secondimage" type="media" label="Sliding image:" description="Choose a sliding image" />
+         <field name="rowamount" type="text" label="Amount of sliding rows:" description="How many rows must there be?" />
+      </fieldset>
+    </fields>
+  </config>    
+</extension>
